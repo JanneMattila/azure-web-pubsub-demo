@@ -1,0 +1,23 @@
+{
+  "name": "azure-web-pubsub-demo",
+  "version": "1.0.0",
+  "description": "Azure Web PubSub demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JanneMattila/azure-web-pubsub-demo.git"
+  },
+  "author": "Janne Mattila",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JanneMattila/azure-web-pubsub-demo/issues"
+  },
+  "homepage": "https://github.com/JanneMattila/azure-web-pubsub-demo#readme",
+  "dependencies": {
+    "@azure/web-pubsub": "^1.0.0-beta.1",
+    "ws": "^7.4.5"
+  }
+}
