@@ -1,7 +1,7 @@
 const { WebPubSubServiceClient } = require('@azure/web-pubsub');
 
 if (process.argv.length !== 5) {
-    console.log('Usage: node publish <connection-string> <hub-name> <message>');
+    console.log('Usage: node publisher <connection-string> <hub-name> <message>');
     return 1;
 }
 

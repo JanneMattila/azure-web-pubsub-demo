@@ -3,7 +3,7 @@ const { WebPubSubServiceClient } = require('@azure/web-pubsub');
 
 async function main() {
     if (process.argv.length !== 4) {
-        console.log('Usage: node subscribe <connection-string> <hub-name>');
+        console.log('Usage: node subscriber <connection-string> <hub-name>');
         return 1;
     }
 
